@@ -1,0 +1,244 @@
+
+body{
+    background-image: url(images/background.png);
+    overflow: scroll;
+    display: block;
+}
+#wrapper {
+    background-color:rgba(0, 0, 0, 0.841);
+    margin-left: 8%;
+    margin-right:8%;
+    box-shadow: 0.25em 0.25em 0.25em rgba(22, 21, 21, 0.934);
+    min-width:65em;
+    color: white;
+    font-size: larger;
+}
+
+main {
+    
+    padding-left:5%;
+    padding-right:5%;
+}
+
+main p{
+    padding-left: 7%;
+    padding-right: 5%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#owner{
+  
+   border-right: solid;
+    margin-left: 7%;
+    color:antiquewhite;
+    width: 39%;
+    float: left;
+    
+}
+#pet{
+    
+    padding-left: 7%;
+    color:antiquewhite;
+    width: 42%;
+    float: right;
+
+}
+#extraInfo{
+    padding-left: 7%;
+    color:antiquewhite;
+}
+
+.bold {
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+main h1 {
+    text-align: left;
+    padding-left: 7%;
+    color:antiquewhite;
+}
+main h2{
+    text-align: left;
+    padding-left: 7%;
+    color:antiquewhite;
+}
+/*this applies antiquewhite color to the class*/
+.antiquewhite {
+    color:antiquewhite;
+}
+
+
+header{
+    text-align: center;
+    color:antiquewhite;
+}
+#address {
+text-align: justify;
+padding-left: 7%;
+}
+
+#enrollTag:hover {
+    text-decoration: none;
+    color: grey;
+}
+#enrollTag{
+    text-decoration: none;
+    color: aliceblue;
+}
+#coverImage {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,cursive;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: aliceblue;
+    height: 300px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    /*these are properties for the cover image */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(images/cover.jpg);
+    background-position-x: center;
+}
+nav{
+background-color: grey;
+text-align: center;
+border-top: solid black;
+padding-top: 0.5em;
+
+}
+#NavTop{
+    position: sticky;
+    top: 0;
+}
+#NavFooter a{
+    text-decoration: none;
+    font-size:1em ;
+    color: antiquewhite;
+   
+    border-left: solid white;
+ 
+    padding-left: 1em;
+    padding-right: 1em;
+
+    
+}
+.EnrollBorder{
+    border-right: solid white;
+
+}
+#NavFooter a:hover {
+    color:black;
+
+}
+
+/* this modifies the images used in the navigation menu */
+nav a img{
+    
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    background-size: cover;
+    width: 130px;
+    height: 50px;
+    
+    }
+#Index:hover {
+    content: url(images/indexHover.png)
+ }
+#Aboutus:hover{
+    content: url(images/AboutusHover.png)
+}
+#Gallery:hover{
+    content: url(images/GalleryHover.png);
+}
+#Enroll:hover {
+    content:url(images/EnrollHover.png)
+}
+
+#Requirements {
+    
+    float:left;
+    margin-left: 5%;
+    
+}
+#Benefits {
+    float: right;
+    margin-right: 5%;
+}
+
+#Mision{
+    margin-left: 5%;
+    float:left;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#Vision {
+    margin-right: 5%;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    text-align: center;
+}
+.clear {
+    clear:both;
+}
+
+
+#address {
+    font-weight: bold;
+    float: left;
+}
+#quote {
+    float: right;
+    font-style: italic;
+    width: 30%;
+    margin-right: 10%;
+}
+footer {
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+}
+footer a {
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+ul {
+    
+    list-style-image:url(images/navPawWhite.png);
+}
+table , tr,th,td{
+    margin-left: 7%;
+    border: solid white;;
+    border-spacing: 0;
+}
+table th {
+    background-color:azure;
+    color: black;
+}
+div.gallery {
+   
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+}
+div.description {
+    padding: 15px;
+    text-align: center;
+}
+div.gallery:hover {
+border-color: rgb(148, 149, 130);
+}
+#wholeGallery {
+    margin-left: 10%;
+}
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pet Modeling Professional- Enroll</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/icon" href="images/favicon.ico">
+</head>
+<body> <!-- main body will have its own background color-->
+<div id="wrapper"> <!--this will cover the entire page-->
+<div id="coverImage">
+    <span>PET MODELING PROFESSIONAL</span>
+</div>
+ <!-- I will use for an image as a cover above the navigation-->
+
+ <nav id="NavTop"><!-- navigation of the webpage-->
+    <a  href="index.html"> <img id="Index" src="images/index.png" alt="Index" width="130" height="45"></a> 
+    <a  href="Aboutus.html"><img id="Aboutus" src="images/AboutUs.png" alt="About us" width="130" height="45"></a>
+    <a  href="Gallery.html"><img id="Gallery" src="images/Gallery.png" alt="Gallery" width="130" height="45"></a>
+    <a  href="Enroll.html"><img id="Enroll" src="images/enroll.png" alt="Enroll" width="130" height="45"></a>
+    </nav>
+<header><h1>Make your pet the next supermodel-Enroll</h1></header>
+<!-- here begins the main content that will change on each webpage-->
+<main>
+<h2>your pet's dream begins here!</h2>
+<p>This where the registration begins, help us by providing the next information, and make sure everything is complete and accurate
+    fields with * are required
+</p>
+
+<!--this is where the form begins for registration-->
+<!-- we will put parts of the forms within div so we can divide in 2 columns-->
+
+
+<form action="Enroll.html" method="get" name="FormPet">
+    <!-- this is the first div for the info about user-->
+    <div id="owner">
+        <h3>Information about you:</h3> 
+
+    <label for="myName">*First Name: </label>
+    <input type="text" name="myName" id="myName" required="required"><br><br>
+
+    <label for="myLastname">*Last Name: </label>
+    <input type="text" name="myLastname" id="myLastname" required="required"><br><br>
+    <label for="myDOB">*Date of birth: </label>
+    <input type="date" name="myDOB" id="myDOB" required="required"><br><br>
+    <label>*Email Address: </label>
+    <input type="email" name="myEmail" id="myEmail" required="required">
+    </div>
+<!-- this will be the second column for info about the pet-->
+    <div id="pet">
+    <h3>Information about your pet:</h3> 
+
+
+    <label for="petName" >*Name of your pet </label>
+    <input type="text" name="petName" id="petName" required="required"><br><br>
+    <label for="myLastname">*What type of pet is your star? </label>
+    <input type="text" name="myType" id="myType" list="PetType" required="required">
+    <datalist  id="PetType">
+        <option>--CHOOSE TYPE--</option>
+        <option>Cat</option>
+        <option>Dog</option>
+        <option>Tiger</option>
+        <option>Pig</option>
+        <option>Fish</option>
+    </datalist>
+    <br><br>
+    <label>When was it born: </label>
+    <input type="date" name="petDOB" id="petDOB" required="required"> <br><br>
+    <label> What makes your pet a good fit for our agency? </label><br>
+    <input type="checkbox" name="PetDetail" > Talented
+    <input type="checkbox" name="PetDetail" > Unique 
+    <input type="checkbox" name="PetDetail" > Cute 
+    <input type="checkbox" name="PetDetail" > Lovely
+    </div>
+    <br class="clear">
+    <h2> *Anything else we need to know about your adorable pet? please let us know all about</h2>
+    
+    <!-- we will make a third div so we can also align properly this text area -->
+    <div id="extraInfo">
+
+    <textarea id="comments" name="comments" rows="10" cols="80" required="required"></textarea><br><br>
+    <!--this submit will be an image to align with the whole website-->
+    <input type="image" id="Submit" name="FormPet" alt="submit" src="images/submit.png" width="130" height="45">
+    </div>
+</form>
+
+
+
+<br class="clear">
+<div id="address">
+    Pet Modeling Professional <br>
+    12-545-2315 <br>
+    234 King Dog St <br>
+    Cat City, NB <br>
+    W0W M3W <br>
+</div>
+<div id="quote">
+    "If having a soul means being able to feel love and loyalty
+    and gratitude, then animals are better off than a lot of humans"
+    <br>
+    &mdash;James Herriot
+</div>
+<br class="clear">
+
+</main>
+
+
+<nav id="NavFooter"> <!-- this will be the navigation below for accessability-->
+    <a href="index.html">Home</a> 
+    <a href="Aboutus.html">About us</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="Enroll.html" class="EnrollBorder" >Enroll</a>
+    </nav>
+
+<footer><!-- this will be for the copyright info at the very bottom-->
+copyright &copy; 2023 Pet Modeling Professional <br>
+<a href="mailto:dcuellarhernandez01@mynbcc.a">diego.cuellar@petmodeling.com</a>
+</footer>
+
+</div>
+</body>
+</html>
